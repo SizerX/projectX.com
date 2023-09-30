@@ -1,0 +1,205 @@
+
+body {
+    background-color: #000; /* רקע שחור */
+    color: #fff; /* צבע טקסט לבן */
+    font-family: Arial, sans-serif; /* גופן ראשי */
+    margin: 0; /* הסרת שוליים חיצוניים */
+    padding: 0; /* הסרת שוליים פנימיים */
+  }
+  
+  /* סגנונות לכותרת ראשית בדף */
+  header {
+    background-color: #333; /* רקע כותרת כהה */
+    padding: 20px; /* ריפוד פנימי בכותרת */
+    text-align: center; /* מרכוז את הטקסט בכותרת */
+  }
+  
+  /* סגנונות לתפריט עליון */
+  nav ul {
+    list-style-type: none; /* הסרת סמלי רשימה */
+    margin: 0; /* הסרת שוליים חיצוניים */
+    padding: 0; /* הסרת שוליים פנימיים */
+  }
+  
+  nav ul li {
+    display: inline; /* הצגת פריטי תפריט באותו שורה */
+    margin-right: 20px; /* מרווח מימין בין הפריטים */
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* להסיר קווים מתחת לטקסט */
+    color: #fff; /* צבע טקסט לבן */
+    font-weight: bold; /* משקל הגופן מוגדר כבד */
+  }
+  
+  /* סגנונות לאזור התוכן בדף */
+  .content {
+    padding: 20px; /* ריפוד פנימי באזור התוכן */
+  }
+  
+  /* סגנונות לכותרת ראשית בתוך אזור התוכן */
+  .content h1 {
+    font-size: 36px; /* גודל הכותרת */
+    color: #333; /* צבע הטקסט */
+    margin-top: 0; /* מרווח מלמעלה של הכותרת */
+  }
+  
+  /* סגנונות לפריטים בתוך אזור התוכן */
+  .content p {
+    font-size: 16px; /* גודל הגופן */
+    line-height: 1.6; /* פריסת שורות */
+    margin-bottom: 20px; /* מרווח מתחת לפריט */
+  }
+
+
+
+
+  main {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie img {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  max-width: 300px;
+  background-color: #f9f9f9;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+body {
+  background-color: #000; /* רקע שחור */
+  color: #fff; /* צבע טקסט לבן */
+  font-family: Arial, sans-serif; /* גופן ראשי */
+  margin: 0; /* הסרת שוליים חיצוניים */
+  padding: 0; /* הסרת שוליים פנימיים */
+}
+
+/* סגנונות לכותרת ראשית בדף */
+header {
+  background-color: #333; /* רקע כותרת כהה */
+  padding: 10px; /* ריפוד פנימי בכותרת */
+  text-align: center; /* מרכוז את הטקסט בכותרת */
+}
+
+/* סגנונות לתפריט עליון */
+nav ul {
+  list-style-type: none; /* הסרת סמלי רשימה */
+  margin: 0; /* הסרת שוליים חיצוניים */
+  padding: 0; /* הסרת שוליים פנימיים */
+}
+
+nav ul li {
+  display: inline; /* הצגת פריטי תפריט באותו שורה */
+  margin-right: 20px; /* מרווח מימין בין הפריטים */
+}
+
+nav ul li a {
+  text-decoration: none; /* להסיר קווים מתחת לטקסט */
+  color: #fff; /* צבע טקסט לבן */
+  font-weight: bold; /* משקל הגופן מוגדר כבד */
+}
+
+/* סגנונות לאזור התוכן בדף */
+.content {
+  padding: 20px; /* ריפוד פנימי באזור התוכן */
+}
+
+/* סגנונות לכותרת ראשית בתוך אזור התוכן */
+.content h1 {
+  font-size: 36px; /* גודל הכותרת */
+  color: #333; /* צבע הטקסט */
+  margin-top: 0; /* מרווח מלמעלה של הכותרת */
+}
+
+/* סגנונות לפריטים בתוך אזור התוכן */
+.content p {
+  font-size: 16px; /* גודל הגופן */
+  line-height: 1.6; /* פריסת שורות */
+  margin-bottom: 20px; /* מרווח מתחת לפריט */
+}
+
+
+
+
+.sratim {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  max-width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie img {
+border: 1px solid #ccc;
+padding: 1rem;
+margin: 1rem;
+text-align: center;
+max-width: 300px;
+background-color: #f9f9f9;
+height: auto;
+margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+/* סגנונות לאזור החיפוש */
+.search {
+  text-align: center; /* מרכוז את איזור החיפוש באופן אופקי */
+  margin: 20px 0; /* מרווח מלמעלה ומלמטה לאיזור החיפוש */
+}
+
+/* סגנונות לשדה החיפוש עצמו */
+.search input[type="text"] {
+  width: 50%; /* מילוי רוחב השדה באופן מלא */
+  padding: 10px; /* ריפוד פנימי בשדה החיפוש */
+  font-size: 16px; /* גודל הגופן בשדה החיפוש */
+  border: 1px solid #ccc; /* גבול לשדה החיפוש */
+  border-radius: 5px; /* רדיוס פינות לשדה החיפוש */
+}
+
+/* סגנונות לכפתור החיפוש */
+.search button {
+  background-color: #007acc; /* רקע הכפתור */
+  color: #fff; /* צבע הטקסט בכפתור */
+  border: none; /* הסרת גבול לכפתור */
+  padding: 10px 20px; /* ריפוד פנימי בכפתור */
+  border-radius: 5px; /* רדיוס פינות לכפתור */
+  cursor: pointer; /* הפעלת הסמל "יד" כסמן למעבר עכבר */
+}
+
+
